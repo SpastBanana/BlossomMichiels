@@ -54,6 +54,22 @@ def logoutView(request):
 
 def profielView(request):
     if not request.user.is_anonymous:
-        args = {'page': 'profiel.html', 'delta_statusses': None}
-        return render(request, 'index.html', args)
+        template_name = {'page': 'profiel.html'}
+        return render(request, 'index.html', template_name)
+
+def contactView(request):
+    template_name = {'page': 'contact.html'}
+    return render(request, 'index.html', template_name)
+
+def aboutmeView(request):
+    template_name = {'page': 'about-me.html'}
+    return render(request, 'index.html', template_name)
+
+def tarievenView(request):
+    template_name = {'page': 'tarieven.html'}
+    return render(request, 'index.html', template_name)
+
+def portfolioView(request):
+    template_name = {'page': 'portfolio.html'}
+    return render(request, 'index.html', template_name)
 
