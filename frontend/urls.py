@@ -7,7 +7,11 @@ urlpatterns = [
     path('home', views.homeView, name='Home'),
     path('login', views.loginView, name="Login"),
     path('logout', views.logoutView, name="Logout"),
-    path('register', views.registerView, name="Register"),
     path('profiel', views.profielView, name='Profiel'),
+    path('about-me', views.aboutMeView, name='About-Me'),
+    path('contact', views.contactView, name='Contact'),
+    path('portfolio', views.portfolioView, name='Portfolio'),
+    path('tarieven', views.tarievenView, name='Tarieven'),
+    path('test', views.testView, name='Test'),
 
 ]
