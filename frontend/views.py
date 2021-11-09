@@ -7,8 +7,8 @@ import numpy as np
 
 def indexView(request):
     if not request.user.is_anonymous:
-        template_name = 'index.html'
-        return render(request, 'default.html', {'page': template_name})
+        template_name = 'home.html'
+        return render(request, 'index.html', {'page': template_name})
 
 def registerView(request):
     if request.method == 'POST':
@@ -22,7 +22,7 @@ def registerView(request):
             return redirect('Login')
     else:
         form = SignUpForm()
-    return render(request, 'default.html', {'page': 'registration/register.html', 'form': form})
+    return render(request, 'index.html', {'page': 'registration/register.html', 'form': form})
 
 def loginView(request):
     if request.method == 'POST':
@@ -36,17 +36,17 @@ def loginView(request):
                     return redirect('Home')
                 else:
                     form = LoginForm
-                    return render(request, 'default.html', {'page': 'registration/login.html', 'form': form, 'error': 'Account is not activated'})
+                    return render(request, 'index.html', {'page': 'registration/login.html', 'form': form, 'error': 'Account is not activated'})
             else:
                 form = LoginForm
-                return render(request, 'default.html', {'page': 'registration/login.html', 'form': form, 'error': 'Your username and password were incorrect.'})
+                return render(request, 'index.html', {'page': 'registration/login.html', 'form': form, 'error': 'Your username and password were incorrect.'})
         except:
             form = LoginForm
-            return render(request, 'default.html', {'page': 'registration/login.html', 'form': form, 'error': 'Invalid Form'})
+            return render(request, 'index.html', {'page': 'registration/login.html', 'form': form, 'error': 'Invalid Form'})
 
     else:
         form = LoginForm
-        return render(request, 'default.html', {'page': 'registration/login.html', 'form': form, 'error': ''})
+        return render(request, 'index.html', {'page': 'registration/login.html', 'form': form, 'error': ''})
 
 def logoutView(request):
     logout(request)
@@ -55,5 +55,5 @@ def logoutView(request):
 def profielView(request):
     if not request.user.is_anonymous:
         args = {'page': 'profiel.html', 'delta_statusses': None}
-        return render(request, 'default.html', args)
+        return render(request, 'index.html', args)
 
