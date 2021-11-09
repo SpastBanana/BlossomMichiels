@@ -43,7 +43,6 @@ INSTALLED_APPS = [
 
     #Own created
     'frontend',
-    'user_profile',
 ]
 
 MIDDLEWARE = [

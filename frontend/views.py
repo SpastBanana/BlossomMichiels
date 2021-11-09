@@ -1,14 +1,14 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout, authenticate
 from django.shortcuts import render
-from forms import SignUpForm, LoginForm
+from .forms import SignUpForm, LoginForm
 import datetime as datetime
 import numpy as np
 
 def homeView(request):
-    if not request.user.is_anonymous:
-        template_name = 'home.html'
-        return render(request, 'index.html', {'page': template_name})
+    template_name = 'home.html'
+    return render(request, 'index.html', {'page': template_name})
+
 
 def registerView(request):
     if request.method == 'POST':
