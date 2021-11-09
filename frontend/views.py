@@ -5,7 +5,7 @@ from forms import SignUpForm, LoginForm
 import datetime as datetime
 import numpy as np
 
-def indexView(request):
+def homeView(request):
     if not request.user.is_anonymous:
         template_name = 'home.html'
         return render(request, 'index.html', {'page': template_name})
