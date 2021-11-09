@@ -1,28 +1,13 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout, authenticate
 from django.shortcuts import render
-from .forms import SignUpForm, LoginForm
+from .forms import LoginForm
 import datetime as datetime
 import numpy as np
 
 def homeView(request):
     template_name = 'home.html'
     return render(request, 'index.html', {'page': template_name})
-
-
-def registerView(request):
-    if request.method == 'POST':
-        form = SignUpForm(request.POST)
-        if form.is_valid():
-            form.save()
-            username = form.cleaned_data.get('username')
-            raw_password = form.cleaned_data.get('password1')
-            user = authenticate(username=username, password=raw_password)
-            login(request, user)
-            return redirect('Login')
-    else:
-        form = SignUpForm()
-    return render(request, 'index.html', {'page': 'registration/register.html', 'form': form})
 
 
 def loginView(request):
@@ -58,6 +43,9 @@ def profielView(request):
     if not request.user.is_anonymous:
         template_name = {'page': 'profiel.html'}
         return render(request, 'index.html', template_name)
+    else:
+        template_name = {'page': 'profiel.html'}
+        return render(request, 'index.html', template_name)
 
 
 def contactView(request):
@@ -77,5 +65,9 @@ def tarievenView(request):
 
 def portfolioView(request):
     template_name = {'page': 'portfolio.html'}
+    return render(request, 'index.html', template_name)
+
+def testView(request):
+    template_name = {'page': 'test.html'}
     return render(request, 'index.html', template_name)
 
