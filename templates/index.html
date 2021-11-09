@@ -3,14 +3,86 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Blossom Michiels</title>
-{#        <link rel="stylesheet" href="{% static 'CSS/default.css' %}">#}
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BlossomMichiels</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="{% static 'CSS/index.css' %}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
+    <header>
+      <div class="grid">
+        <div class="logo">
+          <a href="http://blossom.datalectro.nl"
+            ><img class="logo-img" href="http://blossom.datalectro.nl" src="./static/img/static/Logo.PNG" alt=""
+          /></a>
+        </div>
+        <div class="home">
+          <li class="link home1">
+            <a class="b1" href="http://blossom.datalectro.nl">Home</a>
+          </li>
+        </div>
+        <div class="portfolio">
+          <li class="link portfolio1">
+            <a class="a1" href="./portfolio/">Portfolio</a>
+          </li>
+        </div>
+        <div class="about-me">
+          <li class="link about-me1">
+            <a class="a1" href="about_me.html">About me</a>
+          </li>
+        </div>
+        <div class="tarieven">
+          <li class="link tarieven1">
+            <a class="a1" href="tarieven.html">Tarieven</a>
+          </li>
+        </div>
+        <div class="contact">
+          <li class="link contact1">
+            <a class="a1" href="contact.html">Contact</a>
+          </li>
+        </div>
+      </div>
+      <div class="black-line"></div>
+
+      <div class="mobile">
+        <div class="container">
+          <div class="navbar">
+            <div class="hamburger">
+              <div class="line line-1"></div>
+              <div class="line line-2"></div>
+              <div class="line line-3"></div>
+            </div>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="http://blossom.datalectro.nl" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./portfolio/" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <body>
         {% include page %}
+        <script src="{% static '/JS/index.js' %}"></script>
     </body>
 </html>
 
