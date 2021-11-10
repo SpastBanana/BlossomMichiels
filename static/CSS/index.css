@@ -28,7 +28,7 @@
       background-color: white;
       display: grid;
       grid-template-columns: 1fr 11% 15% 15% 15% 15%;
-      height: 127px;
+      height: 14vh;
     }
 
     .black-line{
@@ -36,8 +36,9 @@
       height: 2px;
     }
 
-    .logo-img{
-      cursor: pointer;
+    .logo img{
+        cursor: pointer;
+        height: 14vh;
     }
 
     .home{

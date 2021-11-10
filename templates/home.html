@@ -6,66 +6,18 @@
 </head>
 
 <main>
-  <div class="meen">
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.1.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.2.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.3.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.4.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.5.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.6.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.7.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.8.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.9.png" style="width: 100%;" />
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./static/img/home/0.10.png" style="width: 100%;" />
-      </div>
+    <div class="flex">
+        <div class="text">
+            <p>Wanneer mensen naar mijn foto's kijken, wil ik dat ze hetzelfde voelen als wanneer ze een regel uit een gedicht twee keer willen lezen.</p>
+        </div>
+        <div class="box2">
+            <div class="slideBox">
+                {% for img in images %}
+                <img class="slidePic" src="{% static '/IMG/Home-Slide/' %}{{ img }}">
+                {% endfor %}
+                <img class="fotoLijst" src="{% static '/IMG/Format/LijstjeRechthoek.png' %}" alt="Lijstje Rechthoek">
+            </div>
+        </div>
     </div>
-    <br />
-
-    <div style="text-align: center;">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-
-    <p class="text-p">
-      Wanneer mensen naar mijn foto's kijken, wil ik dat ze hetzelfde voelen
-      als wanneer ze een regel uit een gedicht twee keer willen lezen
-    </p>
-  </div>
 </main>
+<script src="{% static '/JS/home.js' %}"></script>

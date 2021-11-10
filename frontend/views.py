@@ -1,13 +1,22 @@
+import os
+
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout, authenticate
 from django.shortcuts import render
+from BlossomSite import settings
 from .forms import LoginForm
 import datetime as datetime
 import numpy as np
 
 def homeView(request):
-    template_name = 'home.html'
-    return render(request, 'index.html', {'page': template_name})
+    homeSlidePath = settings.BASE_DIR / 'static/IMG/Home-Slide'
+    imgList = os.listdir(homeSlidePath)
+    data = {
+        'page': 'home.html',
+        'images': imgList,
+        'imgCount': range(len(imgList)),
+    }
+    return render(request, 'index.html', data)
 
 
 def loginView(request):

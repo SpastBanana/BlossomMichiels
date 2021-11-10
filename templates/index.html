@@ -25,33 +25,58 @@
     <header>
       <div class="grid">
         <div class="logo">
-          <a href="http://blossom.datalectro.nl"
-            ><img class="logo-img" href="http://blossom.datalectro.nl" src="./static/img/static/Logo.PNG" alt=""
-          /></a>
+          <a href="/">
+              <img class="logo-img" src="{% static '/IMG/Format/Logo.png' %}" alt="Logo"/>
+          </a>
         </div>
         <div class="home">
           <li class="link home1">
-            <a class="b1" href="http://blossom.datalectro.nl">Home</a>
+            <a  {% if request.get_full_path == "/" %}
+                    class="b1"
+                {% else %}
+                    class="a1"
+                {% endif %}
+            href="/">Home</a>
           </li>
         </div>
         <div class="portfolio">
           <li class="link portfolio1">
-            <a class="a1" href="./portfolio/">Portfolio</a>
+            <a  {% if request.get_full_path == "/portfolio" %}
+                    class="b1"
+                {% else %}
+                    class="a1"
+                {% endif %}
+            href="/portfolio">Portfolio</a>
           </li>
         </div>
         <div class="about-me">
           <li class="link about-me1">
-            <a class="a1" href="about_me.html">About me</a>
+            <a  {% if request.get_full_path == "/about-me" %}
+                    class="b1"
+                {% else %}
+                    class="a1"
+                {% endif %}
+            href="/about-me">About me</a>
           </li>
         </div>
         <div class="tarieven">
           <li class="link tarieven1">
-            <a class="a1" href="tarieven.html">Tarieven</a>
+            <a  {% if request.get_full_path == "/tarieven" %}
+                    class="b1"
+                {% else %}
+                    class="a1"
+                {% endif %}
+            href="/tarieven">Tarieven</a>
           </li>
         </div>
         <div class="contact">
           <li class="link contact1">
-            <a class="a1" href="contact.html">Contact</a>
+            <a  {% if request.get_full_path == "/contact" %}
+                    class="b1"
+                {% else %}
+                    class="a1"
+                {% endif %}
+            href="/contact">Contact</a>
           </li>
         </div>
       </div>
@@ -67,13 +92,13 @@
             </div>
             <ul class="nav-list">
               <li class="nav-item">
-                <a href="http://blossom.datalectro.nl" class="nav-link">Home</a>
+                <a href="/" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="./portfolio/" class="nav-link">Portfolio</a>
+                <a href="./portfolio" class="nav-link">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="/contact" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
@@ -82,7 +107,7 @@
     </header>
     <body>
         {% include page %}
-        <script src="{% static '/JS/index.js' %}"></script>
     </body>
+    <script src="{% static '/JS/index.js' %}"></script>
 </html>
 
