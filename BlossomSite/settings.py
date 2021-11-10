@@ -130,7 +130,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles' #DJANGO
 
 
 # SECURE_SSL_REDIRECT = True
-LOGIN_REDIRECT_URL = '/home'
+LOGIN_REDIRECT_URL = '/DataLectro-Filemanager'
 LOGIN_URL = '/login'
 
 # Default primary key field type
