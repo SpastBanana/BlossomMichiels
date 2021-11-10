@@ -28,7 +28,7 @@ def loginView(request):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return redirect('Home')
+                    return redirect('filemanager')
                 else:
                     form = LoginForm
                     return render(request, 'index.html', {'page': 'registration/login.html', 'form': form, 'error': 'Account is not activated'})
