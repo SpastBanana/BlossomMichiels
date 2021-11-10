@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     #Own created
     'frontend',
+    'fileManager'
 ]
 
 MIDDLEWARE = [
