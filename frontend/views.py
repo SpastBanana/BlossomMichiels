@@ -3,10 +3,40 @@ import os
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout, authenticate
 from django.shortcuts import render
+from django.core.mail import send_mail
 from BlossomSite import settings
 from .forms import LoginForm
 import datetime as datetime
 import numpy as np
+from .models import shootPayment
+
+def makeMailClient(mail):
+    MSG = '''
+    Bedankt voor het invullen van ons contact formulier! Hierbij is bevestigd dat
+    wij uw mail ontvangen hebben. Wij zullen zo spoedig mogelijk contact met
+    u opnemen!
+
+    Vriendelijke groet,
+    Blossom Michiels
+    '''
+    send_mail('Bevestiging WebForm BlossomMichiels', MSG, 'noreply@blossommichiels.nl', [mail],
+              fail_silently=False, auth_user='noreply@blossommichiels.nl', auth_password='P1cture.20')
+
+
+def makeMailDataLectro(name, mail, sub, msg):
+    data = {'name': name, 'mail': mail, 'sub': sub, 'msg': msg}
+    MSG = '''
+Webmail van:        {}
+Mail adres:             {}
+
+Message: 
+{}
+    '''.format(data['name'], data['mail'], data['msg'])
+
+    send_mail(sub, MSG, 'webmail@blossommichiels.nl', ['info@blossommichiels.nl'],
+              fail_silently=False, auth_user='webmail@blossommichiels.nl', auth_password='P1cture.20')
+
+
 
 def homeView(request):
     homeSlidePath = settings.BASE_DIR / 'static/IMG/Home-Slide'
@@ -58,8 +88,18 @@ def profielView(request):
 
 
 def contactView(request):
-    template_name = {'page': 'contact.html'}
-    return render(request, 'index.html', template_name)
+    if request.method == 'POST' and 'submitMail' in request.POST:
+        name = request.POST.get('name')
+        mail = request.POST.get('email')
+        sub = request.POST.get('sub')
+        msg = request.POST.get('message')
+        makeMailClient(mail)
+        makeMailDataLectro(name, mail, sub, msg)
+        data = {'page': 'contact.html', 'name': name, 'mail': mail, 'sub': sub, 'msg': msg}
+        return render(request, 'index.html', data)
+    else:
+        data = {'page': 'contact.html'}
+        return render(request, 'index.html', data)
 
 
 def aboutMeView(request):
@@ -68,7 +108,8 @@ def aboutMeView(request):
 
 
 def tarievenView(request):
-    template_name = {'page': 'tarieven.html'}
+    tarieven = shootPayment.objects.all()
+    template_name = {'page': 'tarieven.html', 'tarieven': tarieven}
     return render(request, 'index.html', template_name)
 
 
