@@ -1,0 +1,12 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'CSS/DataLectro-Sitemanager/home.css' %}">
+</head>
+<main>
+    {% for form in range %}
+    <div class="block">
+        <h2>{{ formName }}</h2>
+        {% csrf_token %}
+        {{ form.as_p }}
+    </div>
+</main>

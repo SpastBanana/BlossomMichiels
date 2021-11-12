@@ -5,15 +5,40 @@
     <title>Contact</title>
 </head>
 <body>
-    <div class="form-container">
-        <form action="" class="mailForm" method="POST" autocomplete="off">
-            {% csrf_token %}
-            <input type="text" name="name" placeholder="Naam" required>
-            <input type="text" name="sub" placeholder="Onderwerp" required>
-            <input type="email" name="email" placeholder="E-Mail" required>
-            <textarea name="message" placeholder="Bericht" required></textarea>
-            <button name="submitMail" type="submit" value="Send">Verzend!</button>
-        </form>
+    <div class="contactLeft">
+        <div class="contactInfo">
+            {% for con in contactText %}
+            <h2>{{ con.titel }}</h2>
+            <div class="contactLink">
+                <img src="icon.png">
+                <p>{{ con.place }}</p>
+            </div>
+            <div class="contactLink">
+                <img src="icon.png">
+                <p>{{ con.phone }}</p>
+            </div>
+            <div class="contactLink">
+                <img src="icon.png">
+                <p>{{ con.socials }}</p>
+            </div>
+            <div class="contactLink">
+                <img src="icon.png">
+                <p>{{ con.email }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="contactRight">
+
+        <div class="form-container">
+            <form action="" class="mailForm" method="POST" autocomplete="off">
+                {% csrf_token %}
+                <input type="text" name="name" placeholder="Naam" required>
+                <input type="email" name="email" placeholder="E-Mail" required>
+                <textarea name="message" placeholder="Bericht" required></textarea>
+                <button name="submitMail" type="submit" value="Send">Verzend!</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

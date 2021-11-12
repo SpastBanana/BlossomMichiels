@@ -1,0 +1,27 @@
+main {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main a {
+    height: 260px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+main a img {
+    height: 220px;
+    width: 220px;
+}
+
+main a h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}

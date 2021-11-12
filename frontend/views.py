@@ -2,13 +2,11 @@ import os
 
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout, authenticate
-from django.shortcuts import render
 from django.core.mail import send_mail
 from BlossomSite import settings
 from .forms import LoginForm
-import datetime as datetime
-import numpy as np
-from .models import shootPayment
+from .forms import shootPaymentForm
+from .models import shootPayment, contactPage
 
 def makeMailClient(mail):
     MSG = '''
@@ -91,14 +89,16 @@ def contactView(request):
     if request.method == 'POST' and 'submitMail' in request.POST:
         name = request.POST.get('name')
         mail = request.POST.get('email')
-        sub = request.POST.get('sub')
+        sub = "MSG from web form"
         msg = request.POST.get('message')
         makeMailClient(mail)
         makeMailDataLectro(name, mail, sub, msg)
-        data = {'page': 'contact.html', 'name': name, 'mail': mail, 'sub': sub, 'msg': msg}
+        contact = contactPage.objects.all()
+        data = {'page': 'contact.html', 'contactText': contact, 'name': name, 'mail': mail, 'sub': sub, 'msg': msg}
         return render(request, 'index.html', data)
     else:
-        data = {'page': 'contact.html'}
+        contact = contactPage.objects.all()
+        data = {'page': 'contact.html', 'contactText': contact}
         return render(request, 'index.html', data)
 
 
@@ -108,8 +108,13 @@ def aboutMeView(request):
 
 
 def tarievenView(request):
+    form = shootPaymentForm()
+    if request.method == 'POST':
+        form = shootPaymentForm(request.POST)
+        if form.is_valid():
+            form.save()
     tarieven = shootPayment.objects.all()
-    template_name = {'page': 'tarieven.html', 'tarieven': tarieven}
+    template_name = {'page': 'tarieven.html', 'tarieven': tarieven, 'form': form}
     return render(request, 'index.html', template_name)
 
 

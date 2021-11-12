@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+}
+
+header {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    height: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-PC {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.topTitle {
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.topTitle h1 {
+    font-weight: bold;
+    color: #d6a345;
+    padding: 5px;
+    border-bottom: solid 5px #3860A8;
+}
+
+.navList {
+    height: 40px;
+    width: 100%;
+    background: #3860A8;
+    /*border-radius: 10px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bolder;
+}
+
+.currentPage {
+    margin-top: 4px;
+    height: 32px;
+    border-bottom : solid 4px #d6a345;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eeeeee;
+    margin-right: -15%;
+    margin-left: -15%;
+    text-decoration: none;
+    font-size: 115%;
+    font-weight: 400;
+    transition: all 0.25s ease-in-out;
+}
+
+.navLink:hover {
+    height: 40px;
+    background: #d6a345;
+    padding-right: 4px;
+    padding-left: 4px;
+    /*border-bottom : solid 4px #d6a345;*/
+    /*border-top : solid 4px #d6a345;*/
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eeeeee;
+    margin-right: -15%;
+    margin-left: -15%;
+    text-decoration: none;
+    font-size: 115%;
+    font-weight: 400;
+    transition: all 0.25s ease-in-out;
+}
