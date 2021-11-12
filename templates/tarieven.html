@@ -6,6 +6,7 @@
 </head>
 
 <main>
+<<<<<<< HEAD
     {% for i in tarieven %}
         {% if i.titel == "Event shoot" %}
             <div class="eventShoot">
@@ -104,4 +105,40 @@
             </div>
         {% endif %}
     {% endfor %}
+=======
+<<<<<<< HEAD
+    <div class="eventShootBox">
+        <div class="contentSmall">
+            <h2>Event shoot</h2>
+            <p>Voor het foto- of videograferen van een event, betaal je per uur.</p>
+            <p>2 uur 150 euro</p>
+            <p>-Eventuele reiskosten in overleg.</p>
+        </div>
+    </div>
+    <div class="portretShootBox">
+        <div class="contentMiddle"></div>
+    </div>
+    <div class="familieShootBox">
+        <div class="contentSmall"></div>
+    </div>
+    <div class="dierenShootBox">
+        <div class="contentLarge"></div>
+    </div>
+    <div class="logoBox">
+        <img class="contentLogo" src="">
+    </div>
+    <div class="gebouwenShootBox">
+        <div class="contentLarge"></div>
+    </div>
+=======
+    <div class="tariefBlock">
+        {% for i in tarieven %}
+            {{ i.titel }}
+            {{ i.context }}
+            <br>
+            <br>
+        {% endfor %}
+    </div>
+>>>>>>> refs/remotes/origin/main
+>>>>>>> b5e179ae0922ba9a5b313faebd403970e59223b5
 </main>
