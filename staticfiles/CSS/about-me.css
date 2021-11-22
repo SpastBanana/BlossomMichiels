@@ -1,0 +1,35 @@
+main {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+}
+
+.box {
+    height: auto;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxIMG {
+    width: 28%;
+}
+
+.boxText {
+    width: 40%;
+    font-size: 3vh;
+}
+
+.blackLine {
+    height: 3px;
+    width: 100%;
+    background: black;
+}

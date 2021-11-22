@@ -108,13 +108,8 @@ def aboutMeView(request):
 
 
 def tarievenView(request):
-    form = shootPaymentForm()
-    if request.method == 'POST':
-        form = shootPaymentForm(request.POST)
-        if form.is_valid():
-            form.save()
     tarieven = shootPayment.objects.all()
-    template_name = {'page': 'tarieven.html', 'tarieven': tarieven, 'form': form}
+    template_name = {'page': 'tarieven.html', 'tarieven': tarieven}
     return render(request, 'index.html', template_name)
 
 

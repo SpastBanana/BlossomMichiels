@@ -16,11 +16,8 @@ class shootPayment(models.Model):
     ]
 
     titel = models.CharField(max_length=25, choices=SHOOT_CHOICES)
-    alinea1Align = models.CharField(max_length=200, default="left", choices=TEXT_CHOICES)
     Alinea1 = models.TextField(default="none")
-    alinea2Align = models.CharField(max_length=200, default="left", choices=TEXT_CHOICES)
     Alinea2 = models.TextField(default="none")
-    alinea3Align = models.CharField(max_length=200, default="left", choices=TEXT_CHOICES)
     Alinea3 = models.TextField(default="none")
 
     def __str__(self):

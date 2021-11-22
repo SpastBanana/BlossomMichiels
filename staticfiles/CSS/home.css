@@ -1,0 +1,42 @@
+.slidePic {
+    display:none;
+}
+
+@media (min-width: 1000px) {
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 85vh;
+        width: 100%;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100%vh;
+        width: 100%;
+    }
+
+    .text {
+        font-size: 5vh;
+        width: 30vw;
+        text-align: center;
+    }
+
+    .slideBox {
+        position: relative;
+    }
+
+    .slidePic {
+        height: 65vh;
+    }
+
+    .fotoLijst {
+        height: 67.5vh;
+        position: absolute;
+        top: -1vh;
+        left: -0.5vw;
+    }
+}
