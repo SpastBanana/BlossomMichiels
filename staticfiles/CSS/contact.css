@@ -2,6 +2,109 @@
     main{
         height: 86vh;
         padding-top: 14vh;
+        display: flex;
+    }
+
+    .contactLeft {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactInfo {
+        height: 47%;
+        width: 88%;
+        border-right: solid 3px black;
+        border-bottom: solid 3px black;
+        margin-left: -3px;
+        margin-top: -3px;
+        border-bottom-right-radius: 25px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 4%;
+        padding-left: 8%;
+    }
+
+    .contactInfo h2 {
+        font-size: 1.9vw;
+        letter-spacing: 0.1vw;
+    }
+
+    .contactLink {
+        display: flex;
+        align-items: center;
+        font-size: 1.2vw;
+    }
+
+    .contactLink img {
+        margin-right: 3vw;
+        height: 4vw;
+    }
+
+    .contactRight {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textBox {
+        height: 25%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2vw;
+    }
+
+    .form-container {
+        height: 75%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-container form {
+        height: 60%;
+        width: 100%;
+        background: #ffe2e4;
+        border-radius: 25px;
+        padding: 12%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .form-container form input {
+        width: 100%;
+        height: 7%;
+        padding: 1%;
+        border: none;
+        outline: none;
+    }
+
+    .form-container form textarea {
+        width: 100%;
+        height: 45%;
+        padding: 1%;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+
+    .form-container form button {
+        height: 8%;
+        width: 18%;
+        outline: none;
+        border: none;
+        background: white;
+        cursor: pointer;
     }
 }
 

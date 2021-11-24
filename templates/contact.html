@@ -11,33 +11,38 @@
             {% for con in contactText %}
             <h2>{{ con.titel }}</h2>
             <div class="contactLink">
-                <img src="icon.png">
+                <img src="{% static 'IMG/Contact/location.png' %}">
                 <p>{{ con.place }}</p>
             </div>
             <div class="contactLink">
-                <img src="icon.png">
+                <img src="{% static 'IMG/Contact/phone.png' %}">
                 <p>{{ con.phone }}</p>
             </div>
             <div class="contactLink">
-                <img src="icon.png">
+                <img src="{% static 'IMG/Contact/social.png' %}">
                 <p>{{ con.socials }}</p>
             </div>
             <div class="contactLink">
-                <img src="icon.png">
+                <img src="{% static 'IMG/Contact/mail.png' %}">
                 <p>{{ con.email }}</p>
             </div>
             {% endfor %}
         </div>
+        <div class="treeAndLogo">
+
+        </div>
     </div>
     <div class="contactRight">
-
+        <div class="textBox">
+            <h2>Ik ga graag met je in gesprek over een schoot, project of vragen.</h2>
+        </div>
         <div class="form-container">
             <form action="" class="mailForm" method="POST" autocomplete="off">
                 {% csrf_token %}
                 <input type="text" name="name" placeholder="Naam" required>
                 <input type="email" name="email" placeholder="E-Mail" required>
                 <textarea name="message" placeholder="Bericht" required></textarea>
-                <button name="submitMail" type="submit" value="Send">Verzend!</button>
+                <button name="submitMail" type="submit" value="Send">Send</button>
             </form>
         </div>
     </div>
