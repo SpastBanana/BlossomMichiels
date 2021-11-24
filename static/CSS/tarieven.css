@@ -1,65 +1,137 @@
-main {
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 1fr 30%;
-    grid-template-rows: 1fr 20% 1fr;
+@media (min-width: 1100px){
+    main {
+        height: 100vh;
+        padding-top: 14vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 1fr 30%;
+        grid-template-rows: 1fr 20% 1fr;
+    }
+
+    .eventShoot,
+    .portretShoot,
+    .familieShoot,
+    .dierenShoot,
+    .gebouwenShoot {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border: solid 5px black;
+        border-radius: 50px;
+        margin: 10%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    main div h2 {
+        font-size: 4vh;
+        font-weight: 200;
+        letter-spacing: 5px;
+    }
+
+    main div p {
+        font-size: 2vh;
+        font-weight: 600;
+        width: 85%;
+    }
+
+    .eventShoot {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        margin-right: 0;
+    }
+
+    .portretShoot {
+        grid-row: 1/3;
+        grid-column: 2/3;
+        background: #ffe2e2;
+    }
+
+    .familieShoot {
+        grid-row: 1/2;
+        grid-column: 3/4;
+        margin-left: 0;
+    }
+
+    .dierenShoot {
+        grid-row: 2/4;
+        grid-column: 1/2;
+        margin-right: 0;
+    }
+
+    .gebouwenShoot {
+        grid-row: 2/4;
+        grid-column: 3/4;
+        margin-left: 0;
+    }
 }
 
-.eventShoot,
-.portretShoot,
-.familieShoot,
-.dierenShoot,
-.gebouwenShoot {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    border: solid 5px black;
-    border-radius: 50px;
-    margin: 10%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
+@media (max-width: 1100px){
+    main {
+        height: 100vh;
+        padding-top: 14vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 1fr 30%;
+        grid-template-rows: 1fr 20% 1fr;
+    }
 
-main div h2 {
-    font-size: 4vh;
-    font-weight: 200;
-    letter-spacing: 5px;
-}
+    .eventShoot,
+    .portretShoot,
+    .familieShoot,
+    .dierenShoot,
+    .gebouwenShoot {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border: solid 5px black;
+        border-radius: 50px;
+        margin: 10%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
 
-main div p {
-    font-size: 2vh;
-    font-weight: 600;
-    width: 85%;
-}
+    main div h2 {
+        font-size: 4vh;
+        font-weight: 200;
+        letter-spacing: 5px;
+    }
 
-.eventShoot {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    margin-right: 0;
-}
+    main div p {
+        font-size: 2vh;
+        font-weight: 600;
+        width: 85%;
+    }
 
-.portretShoot {
-    grid-row: 1/3;
-    grid-column: 2/3;
-    background: #ffe2e2;
-}
+    .eventShoot {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        margin-right: 0;
+    }
 
-.familieShoot {
-    grid-row: 1/2;
-    grid-column: 3/4;
-    margin-left: 0;
-}
+    .portretShoot {
+        grid-row: 1/3;
+        grid-column: 2/3;
+        background: #ffe2e2;
+    }
 
-.dierenShoot {
-    grid-row: 2/4;
-    grid-column: 1/2;
-    margin-right: 0;
-}
+    .familieShoot {
+        grid-row: 1/2;
+        grid-column: 3/4;
+        margin-left: 0;
+    }
 
-.gebouwenShoot {
-    grid-row: 2/4;
-    grid-column: 3/4;
-    margin-left: 0;
+    .dierenShoot {
+        grid-row: 2/4;
+        grid-column: 1/2;
+        margin-right: 0;
+    }
+
+    .gebouwenShoot {
+        grid-row: 2/4;
+        grid-column: 3/4;
+        margin-left: 0;
+    }
 }

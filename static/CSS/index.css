@@ -3,10 +3,11 @@
     padding: 0;
   }
 
-@media(min-width: 600px){
-
-    html{
-      background-color: white;
+@media(min-width: 1100px){
+    header {
+        position: fixed;
+        background: white;
+        width: 100%;
     }
 
     body {
@@ -74,11 +75,11 @@
     .link{
       list-style: none;
       font-family: 'Courier Prime', monospace;
+        font-size: 1.8vw;
     }
 
     .b1 {
       text-decoration: none;
-      font-size: 30px;
       color: black;
       font-weight: 300;
       letter-spacing: 1px;
@@ -102,7 +103,6 @@
 
     .a1 {
       text-decoration: none;
-      font-size: 30px;
       color: black;
       font-weight: 300;
       letter-spacing: 1px;
@@ -140,7 +140,13 @@
 }
 
 /*mobile first code*/
-@media(max-width: 800px){
+@media(max-width: 1100px){
+    header {
+        position: fixed;
+        background: white;
+        width: 100%;
+    }
+
     .grid{
       display: grid;
       grid-template-columns: 1fr 140px;
@@ -156,17 +162,16 @@
         align-items: center;
     }
     .navbar {
-        width: 200px;
+        width: 250px;
         height: 100%;
         background-color: rgb(51, 19, 32);
         position: fixed;
         top: 0;
         right: -300px;
-        z-index: 4;
+        z-index: 20;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 20% 0 0 60%;
         transition: right .8s cubic-bezier(0.5, 0, 0, 0.5);
     }
 
@@ -212,6 +217,7 @@
     .black-line{
         height: 2px;
         background-color: black;
+        width: 100%;
     }
 
     .nav-list {

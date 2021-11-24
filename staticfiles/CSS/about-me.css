@@ -1,35 +1,76 @@
-main {
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
+@media (min-width: 1100px){
+    main {
+        height: auto;
+        padding-top: 14vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .box {
+        height: auto;
+        width: 90%;
+        margin: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .boxIMG {
+        width: 28%;
+    }
+
+    .boxText {
+        width: 40%;
+        font-size: 3vh;
+    }
+
+    .blackLine {
+        height: 3px;
+        width: 100%;
+        background: black;
+    }
 }
 
-.banner {
-    width: 100%;
-}
+@media (max-width: 1100px){
+    main {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 
-.box {
-    height: auto;
-    width: 90%;
-    margin: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+    .banner {
+        width: 100%;
+    }
 
-.boxIMG {
-    width: 28%;
-}
+    .box {
+        height: auto;
+        width: 90%;
+        margin: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
-.boxText {
-    width: 40%;
-    font-size: 3vh;
-}
+    .boxIMG {
+        width: 28%;
+    }
 
-.blackLine {
-    height: 3px;
-    width: 100%;
-    background: black;
+    .boxText {
+        width: 40%;
+        font-size: 3vh;
+    }
+
+    .blackLine {
+        height: 3px;
+        width: 100%;
+        background: black;
+    }
 }

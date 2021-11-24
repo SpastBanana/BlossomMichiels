@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+{% load static %}
+
 <head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
+    <script src='https://kit.fontawesome.com/1b028243f3.js'></script>
+    <link rel="stylesheet" href="{% static 'CSS/contact.css' %}">
 </head>
-<body>
+
+<main>
     <div class="contactLeft">
         <div class="contactInfo">
             {% for con in contactText %}
@@ -40,5 +41,4 @@
             </form>
         </div>
     </div>
-</body>
-</html>
+</main>
