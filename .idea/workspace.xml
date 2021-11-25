@@ -3,10 +3,447 @@
   <component name="ChangeListManager">
     <list default="true" id="0579a768-f5f4-4e68-bd9e-50bd0501a232" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/CSS/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/IMG/Contact/Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/IMG/Contact/Locatie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/DataLectro-Sitemanager/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/DataLectro-Sitemanager/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/DataLectro-Sitemanager/siteText.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/about-me.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/portfolio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/profiel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/registration/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/tarieven.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/CSS/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/AboutMe/banner.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/AboutMe/image00002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/AboutMe/image00003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/AboutMe/image00004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Contact/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Contact/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Contact/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Contact/social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/DataLectro-Sitemanager/document-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/DataLectro-Sitemanager/media-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Format/Lijstje Vierkant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Format/LijstjeRechthoek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Format/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Home-Slide/image00018.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio Ethiopië/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00018.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00019.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00021.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00022.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00023.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00024.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00025.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00026.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00027.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00028.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00029.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00030.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00031.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00032.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00033.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00034.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00035.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio creatief/image00036.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00018.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00019.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00021.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00022.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00023.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00024.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio dieren/image00025.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00018.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00019.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio evenementen/image00021.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/B6EF16D0-F1DA-49E5-9005-CF091BDE65ED.MOV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio gebouwen/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00018.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00019.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00021.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00022.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio kids/image00023.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio page/Tieners1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio page/Tieners2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio page/Tieners3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio page/Volwassenen1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio page/Volwassenen2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio page/Volwassenen3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00018.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00019.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio schilderijen/image00021.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00018.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00019.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00021.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00022.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00023.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00024.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00025.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00026.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00027.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00028.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00029.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00030.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00031.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00032.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00033.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00034.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00035.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00036.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00037.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00038.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00039.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00040.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00041.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00042.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00043.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00044.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00045.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00046.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00047.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00048.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00049.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00050.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00051.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00052.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00053.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00054.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00055.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00056.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00057.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00058.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00059.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00060.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00061.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio tieners/image00062.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00018.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00019.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00020.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio volwassenen/image00021.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00002.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00003.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00004.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00005.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00006.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00007.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00008.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00009.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00010.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00011.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00012.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00013.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00014.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00015.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00016.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Portfolio voorstellingen/image00017.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Tarieven/Background.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Tarieven/Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/IMG/Tarieven/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/JS/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/JS/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/JS/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/nav_sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/nav_sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +462,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,7 +480,9 @@
       <workItem from="1637749594320" duration="1544000" />
       <workItem from="1637773598416" duration="1927000" />
       <workItem from="1637776155348" duration="1200000" />
-      <workItem from="1637784053075" duration="6393000" />
+      <workItem from="1637784053075" duration="7095000" />
+      <workItem from="1637819914913" duration="1134000" />
+      <workItem from="1637822099480" duration="1957000" />
     </task>
     <servers />
   </component>
@@ -59,5 +499,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
