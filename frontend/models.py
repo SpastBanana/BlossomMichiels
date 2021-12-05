@@ -38,21 +38,3 @@ class contactPage(models.Model):
 
     class Meta:
         verbose_name_plural = "Contact Page"
-
-class portfolioRenders(models.Model):
-    TYPE_CHOICES = (
-        ('format-1', 'format-1'),
-        ('format-2', 'format-2'),
-        ('format-3', 'format-3'),
-        ('format-4', 'format-4'),
-    )
-    type = models.CharField(max_length=25, choices=TYPE_CHOICES)
-
-    if type == 'format-1' or type == 'format-2':
-        print("ass")
-
-    def __str__(self):
-        return self.type
-
-    class Meta:
-        verbose_name_plural = "Portfolio"

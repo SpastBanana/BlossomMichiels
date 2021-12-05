@@ -13,4 +13,5 @@ urlpatterns = [
     path('portfolio', views.portfolioView, name='Portfolio'),
     path('tarieven', views.tarievenView, name='Tarieven'),
     path('test', views.testView, name='Test'),
+    path("upload", views.uploadView, name="upload"),
 ]

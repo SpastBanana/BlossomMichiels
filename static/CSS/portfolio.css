@@ -1,0 +1,45 @@
+main {
+    display: grid;
+    padding-top: 25vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.img {
+    margin: 2.8vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goToLink {
+    margin: 2.8vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.row .arrow {
+    height: 1.5vw;
+    width: 3vw;
+    clip-path: polygon(0 35%, 50% 35%, 50% 15%, 100% 50%, 50% 85%, 50% 65%, 0 65%);
+    background: black;
+}
+
+.row a img {
+    height: 100%;
+}

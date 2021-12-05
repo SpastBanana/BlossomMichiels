@@ -126,6 +126,9 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'static'] #ONS
 STATIC_ROOT = BASE_DIR / 'staticfiles' #DJANGO
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 # SECURE_SSL_REDIRECT = True
 LOGIN_REDIRECT_URL = '/DataLectro-Filemanager'
