@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0579a768-f5f4-4e68-bd9e-50bd0501a232" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Sitemanager/migrations/0003_addimg4_addimg5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/migrations/0010_auto_20211206_1550.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlossomSite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlossomSite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sitemanager/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sitemanager/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sitemanager/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sitemanager/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portPage.html" afterDir="false" />
+>>>>>>> d9562d93db0a5a7a91cd991b1ab06ab26dbd4f56
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +33,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20xk5PprzWujztk6pyQjCHYtdz5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -70,7 +86,12 @@
       <workItem from="1638739176578" duration="840000" />
       <workItem from="1638770937331" duration="389000" />
       <workItem from="1638772011951" duration="2908000" />
+<<<<<<< HEAD
       <workItem from="1638785612264" duration="5092000" />
+=======
+      <workItem from="1638785612264" duration="595000" />
+      <workItem from="1638790747583" duration="11291000" />
+>>>>>>> d9562d93db0a5a7a91cd991b1ab06ab26dbd4f56
     </task>
     <servers />
   </component>
@@ -88,5 +109,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

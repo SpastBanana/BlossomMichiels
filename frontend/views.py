@@ -123,6 +123,7 @@ def testView(request):
     return render(request, 'index.html', template_name)
 
 def portPageView(request, portPage):
+    currentPage = portPage
     data = {
         'page': 'portPage.html',
         'pageName': portPage,
