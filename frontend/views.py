@@ -122,6 +122,13 @@ def testView(request):
     template_name = {'page': 'test.html'}
     return render(request, 'index.html', template_name)
 
+def portPageView(request, portPage):
+    data = {
+        'page': 'portPage.html',
+        'pageName': portPage,
+    }
+    return render(request, 'index.html', data)
+
 def uploadView(request):
     if request.method == 'POST' and request.FILES['upload']:
         upload = request.FILES['upload']

@@ -14,4 +14,5 @@ urlpatterns = [
     path('tarieven', views.tarievenView, name='Tarieven'),
     path('test', views.testView, name='Test'),
     path("upload", views.uploadView, name="upload"),
+    path('portfolio/<str:portPage>', views.portPageView, name='portPage'),
 ]
