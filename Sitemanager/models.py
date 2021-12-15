@@ -78,4 +78,4 @@ class addImg5(models.Model):
         return self.portName
 
     class Meta:
-        verbose_name_plural = "Format 6 foto's"
+        verbose_name_plural = "Format 5 foto's"
