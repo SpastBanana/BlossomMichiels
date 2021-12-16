@@ -1,0 +1,49 @@
+@media (min-width: 800px) {
+    .phone {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .title {
+        height: 6vw;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2vw;
+        font-size: 1.5vw;
+    }
+
+    .addButton {
+        height: 4vw;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .addButton a {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(133, 230, 36);
+        font-size: 1.6vw;
+        font-weight: 900;
+        text-decoration: none;
+        letter-spacing: 0.1vw;
+        color: whitesmoke;
+    }
+
+    .pagesList {
+        height: auto;
+        padding: 5vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+}

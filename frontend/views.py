@@ -5,9 +5,7 @@ from django.contrib.auth import login, logout, authenticate
 from django.core.mail import send_mail
 from BlossomSite import settings
 from .forms import LoginForm
-from .forms import shootPaymentForm
 from .models import shootPayment, contactPage
-from django.core.files.storage import FileSystemStorage
 
 def makeMailClient(mail):
     MSG = '''
@@ -118,10 +116,6 @@ def portfolioView(request):
     template_name = {'page': 'portfolio.html'}
     return render(request, 'index.html', template_name)
 
-def testView(request):
-    template_name = {'page': 'test.html'}
-    return render(request, 'index.html', template_name)
-
 def portPageView(request, portPage):
     currentPage = portPage
     data = {
@@ -129,12 +123,3 @@ def portPageView(request, portPage):
         'pageName': portPage,
     }
     return render(request, 'index.html', data)
-
-def uploadView(request):
-    if request.method == 'POST' and request.FILES['upload']:
-        upload = request.FILES['upload']
-        fss = FileSystemStorage()
-        file = fss.save(upload.name, upload)
-        file_url = fss.url(file)
-        return render(request, 'index.html', {'file_url': file_url, 'page': 'uploadTest.html'})
-    return render(request, 'index.html', {'page': 'uploadTest.html'})

@@ -1,0 +1,19 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'DataLectro-SiteManager/CSS/portPages.css' %}">
+</head>
+<main>
+    <div class="title">
+        <h1>Portfolio Pages</h1>
+    </div>
+    <div class="addButton">
+        <a href="/sitemanager/addPortPage">Add new portfolio page</a>
+    </div>
+    <div class="pagesList">
+        {% for portPage in pages %}
+        <div class="pageLink">
+            <a href="/sitemanager/portPages/{{ portPage.portName }}">{{ portPage.portName }}</a>
+        </div>
+        {% endfor %}
+    </div>
+</main>

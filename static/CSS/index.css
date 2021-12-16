@@ -8,6 +8,7 @@
         position: fixed;
         background: white;
         width: 100%;
+        z-index: 5;
     }
 
     body {
