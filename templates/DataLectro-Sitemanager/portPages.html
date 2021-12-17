@@ -11,8 +11,11 @@
     </div>
     <div class="pagesList">
         {% for portPage in pages %}
-        <div class="pageLink">
-            <a href="/sitemanager/portPages/{{ portPage.portName }}">{{ portPage.portName }}</a>
+        <div class="itemBox">
+            <a href="/sitemanager/portPages/{{ portPage.portName }}" class="pageLink">
+                <p>Portfolio - {{ portPage.portName }}</p>
+            </a>
+            <a class="delIcon" href="/sitemanager/portPages/delete/{{ portPage.id }}"><i class="fa fa-trash"></i></a>
         </div>
         {% endfor %}
     </div>

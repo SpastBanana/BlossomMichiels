@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0579a768-f5f4-4e68-bd9e-50bd0501a232" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sitemanager/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sitemanager/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sitemanager/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sitemanager/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/DataLectro-Sitemanager/addPortPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/DataLectro-Sitemanager/addPortPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/frontend/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sitemanager/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/contact.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/portfolio.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/about-me.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sitemanager/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/frontend/forms.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/home.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/index.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20xk5PprzWujztk6pyQjCHYtdz5" />
   <component name="ProjectViewState">
@@ -78,6 +93,8 @@
       <workItem from="1639378190457" duration="269000" />
       <workItem from="1639462221513" duration="82000" />
       <workItem from="1639462352707" duration="1004000" />
+      <workItem from="1639582518163" duration="1273000" />
+      <workItem from="1639678418666" duration="625000" />
     </task>
     <servers />
   </component>

@@ -5,6 +5,7 @@ urlpatterns = [
     path('', views.homeView, name="sitemanager"),
     path('home', views.homeView, name="sitemanager"),
     path('portPages', views.portPagesView, name="portPages"),
+    path('portPages/delete/<int:portID>', views.deletePortPage, name="deletePortPages"),
     path('portPages/<str:editPortPageName>', views.editPortPageView, name="editPortPages"),
     path('addPortPage', views.addPortPageView, name="addPortPage"),
 ]

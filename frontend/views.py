@@ -6,6 +6,7 @@ from django.core.mail import send_mail
 from BlossomSite import settings
 from .forms import LoginForm
 from .models import shootPayment, contactPage
+from Sitemanager.models import portfolioPages
 
 def makeMailClient(mail):
     MSG = '''
@@ -55,7 +56,7 @@ def loginView(request):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return redirect('filemanager')
+                    return redirect('sitemanager')
                 else:
                     form = LoginForm
                     return render(request, 'index.html', {'page': 'registration/login.html', 'form': form, 'error': 'Account is not activated'})
@@ -113,8 +114,12 @@ def tarievenView(request):
 
 
 def portfolioView(request):
-    template_name = {'page': 'portfolio.html'}
-    return render(request, 'index.html', template_name)
+    portPages = portfolioPages.objects.all()
+    data = {
+        'page': 'portfolio.html',
+        'portPages': portPages,
+    }
+    return render(request, 'index.html', data)
 
 def portPageView(request, portPage):
     currentPage = portPage

@@ -6,104 +6,16 @@
 </head>
 
 <main>
+    {% for item in portPages %}
     <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Volwassenen1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Volwassenen2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Volwassenen3.jpeg' %}"></a>
-        <a href="/portfolio/volwassenen" class="goToLink">
+        <a href="/portfolio/{{ item.portName }}" class="img img1"><img src="/media/{{ item.img1 }}"></a>
+        <a href="/portfolio/{{ item.portName }}" class="img img2"><img src="/media/{{ item.img2 }}"></a>
+        <a href="/portfolio/{{ item.portName }}" class="img img3"><img src="/media/{{ item.img3 }}"></a>
+        <a href="/portfolio/{{ item.portName }}" class="goToLink">
             <div class="viewMore">VIEW MORE</div>
-            <div>|VOLWASSENEN</div>
+            <div style="text-transform: uppercase;">|{{ item.portName }}</div>
             <div class="arrow"></div>
         </a>
     </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Tieners1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Tieners2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Tieners3.jpeg' %}"></a>
-        <a href="/portfolio/tieners" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|TIENERS</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Kids1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Kids2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Kids3.jpeg' %}"></a>
-        <a href="/portfolio/kids" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|KIDS</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Voorstelling1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Voorstelling2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Voorstelling3.jpeg' %}"></a>
-        <a href="/portfolio/voorstellingen" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|VOORSTELLING</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Dieren1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Dieren2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Dieren3.jpeg' %}"></a>
-        <a href="/portfolio/dieren" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|DIEREN</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Evenementen1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Evenementen2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Evenementen3.jpeg' %}"></a>
-        <a href="/portfolio/evenementen" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|EVENEMENTEN</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Schilderijen1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Schilderijen2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Schilderijen3.jpeg' %}"></a>
-        <a href="/portfolio/schilderijen" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|SCHILDERIJEN</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Gebouwen1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Gebouwen2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Gebouwen3.jpeg' %}"></a>
-        <a href="/portfolio/gebouwen" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|GEBOUWEN</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Ethiopie1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Ethiopie2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Ethiopie3.jpeg' %}"></a>
-        <a href="/portfolio/ethiopië" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|ETHIOPIË</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
-    <div class="row">
-        <a class="img img1"><img src="{% static 'IMG/Portfolio-page/Creatief1.jpeg' %}"></a>
-        <a class="img img2"><img src="{% static 'IMG/Portfolio-page/Creatief2.jpeg' %}"></a>
-        <a class="img img3"><img src="{% static 'IMG/Portfolio-page/Creatief3.jpeg' %}"></a>
-        <a href="/portfolio/creatief" class="goToLink">
-            <div class="viewMore">VIEW MORE</div>
-            <div>|CREATIEF</div>
-            <div class="arrow"></div>
-        </a>
-    </div>
+    {% endfor %}
 </main>
