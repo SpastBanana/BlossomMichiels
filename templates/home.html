@@ -13,11 +13,11 @@
         <div class="box2">
             <div class="slideBox">
                 {% for img in images %}
-                <img class="slidePic" src="{% static '/IMG/Home-Slide/' %}{{ img }}">
+                <img class="slidePic" src="{% static 'IMG/Home-Slide/' %}{{ img }}">
                 {% endfor %}
-                <img class="fotoLijst" src="{% static '/IMG/Format/LijstjeRechthoek.png' %}" alt="Lijstje Rechthoek">
+                <img class="fotoLijst" src="{% static 'IMG/Format/LijstjeRechthoek.png' %}" alt="Lijstje Rechthoek">
             </div>
         </div>
     </div>
 </main>
-<script src="{% static '/JS/home.js' %}"></script>
+<script src="{% static 'JS/home.js' %}"></script>
