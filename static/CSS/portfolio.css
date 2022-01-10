@@ -1,45 +1,92 @@
-main {
-    display: grid;
-    padding-top: 25vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
+/* Desktop */
+@media (min-width: 1100px) {
+    main {
+        display: grid;
+        padding-top: 24vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    
+    .row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .img {
+        width: 20vw;
+    }
+            
+    .goToLink {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-size: 2vw;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .goToLink div {
+        margin-top: 0.5vw;
+        margin-bottom: 0.5vw;
+    }
+    
+    .row .arrow {
+        height: 1.5vw;
+        width: 3vw;
+        clip-path: polygon(0 35%, 50% 35%, 50% 15%, 100% 50%, 50% 85%, 50% 65%, 0 65%);
+        background: black;
+    }
+    
+    .row a img {
+        width: 100%;
+    }
 }
 
-.row {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.img {
-    margin: 2.8vw;
-    height: 15vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.goToLink {
-    margin: 2.8vw;
-    height: 5vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    color: black;
-    font-size: 1.2vw;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.row .arrow {
-    height: 1.5vw;
-    width: 3vw;
-    clip-path: polygon(0 35%, 50% 35%, 50% 15%, 100% 50%, 50% 85%, 50% 65%, 0 65%);
-    background: black;
-}
-
-.row a img {
-    height: 100%;
+/* Mobile */
+@media (max-width: 1100px) {
+    main {
+        display: grid;
+        padding-top: 100px;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    
+    .row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .img {
+        height: 30vw;
+    }
+    
+    .goToLink {
+        height: 14.5vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        color: black;
+        font-size: 3vw;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .row .arrow {
+        height: 1.5vw;
+        width: 3vw;
+        clip-path: polygon(0 35%, 50% 35%, 50% 15%, 100% 50%, 50% 85%, 50% 65%, 0 65%);
+        background: black;
+    }
+    
+    .row a img {
+        height: 100%;
+    }
 }

@@ -54,21 +54,24 @@
     .flex {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-        height: 100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 40vh;
+        margin-top: 20vh;
+        padding-top: 20vh;
+        padding-bottom: 10vh;
         width: 100%;
-        margin-top: 20%;
     }
 
-    .flex div {
-        margin-top: 18%;
+    .box2 {
+        margin-bottom: 5vh;
     }
 
     .text {
         font-size: 5vw;
         width: 60vw;
         text-align: center;
+        margin-top: 5vh;
     }
 
     .slideBox {

@@ -14,7 +14,7 @@
 
     .contactInfo {
         height: 47%;
-        width: 88%;
+        width: 75%;
         border-right: solid 3px black;
         border-bottom: solid 3px black;
         margin-left: -3px;
@@ -73,6 +73,7 @@
         height: 60%;
         width: 100%;
         background: #ffe2e4;
+        box-shadow: 0px 0px 8px 3px #ffe2e4;
         border-radius: 25px;
         padding: 12%;
         display: flex;
@@ -109,5 +110,79 @@
 }
 
 @media (max-width: 1100px){
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-top: 80px;
+    }
 
+    .textBox {
+        text-align: center;
+        font-size: 1.8vh;
+        font-weight: 200;
+        margin-top: 3vh;
+    }
+
+    form {
+        height: 32vh;
+        width: 80vw;
+        margin-top: 3vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding: 5vw;
+        background: #ffe2e4;
+        border-radius: 3vh;
+        box-shadow: 0px 0px 5px 2px #ffe2e4;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    form input {
+        width: 96%;
+        height: 8%;
+        padding: 2%;
+        border: none;
+        outline: none;
+    }
+
+    form textarea {
+        width: 96%;
+        height: 40%;
+        padding: 2%;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+
+    form button {
+        width: 25%;
+        height: 8%;
+        background: white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .contactInfo {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .contactLink {
+        display: flex;
+        align-items: center;
+    }
+
+    .contactLink img {
+        width: 15vw;
+        margin-left: -4vw;
+        margin-right: 4vw;
+    }
 }
