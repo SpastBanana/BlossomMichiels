@@ -7,24 +7,20 @@
 header {
     margin-top: 2vh;
     margin-bottom: 5vh;
-    height: 28vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .header-PC {
-    height: 100%;
+    height: 20vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
+    position: relative;
 }
 
 .topTitle {
-    height: 20vh;
-    width: 90%;
+    height: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -48,8 +44,24 @@ header {
     border-bottom: solid 5px #3860A8;
 }
 
+header .a {
+    height: 35%;
+    width: 15vw;
+    background: rgb(125, 219, 31);
+    color: whitesmoke;
+    font-size: 1.8vw;
+    font-weight: 900;
+    border-radius: 0.2vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navList {
-    height: 40px;
+    position: absolute;
+    bottom: 0;
+    height: 10px;
     width: 100%;
     background: #3860A8;
     /*border-radius: 10px;*/

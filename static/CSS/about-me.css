@@ -1,3 +1,4 @@
+/* Desktop */
 @media (min-width: 1100px){
     main {
         height: auto;
@@ -37,8 +38,10 @@
     }
 }
 
+/* Mobile */
 @media (max-width: 1100px){
     main {
+        padding-top: 80px;
         height: auto;
         display: flex;
         align-items: center;
@@ -52,24 +55,24 @@
 
     .box {
         height: auto;
-        width: 90%;
-        margin: 5%;
+        width: 95%;
+        margin: 2.5%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .boxIMG {
-        width: 28%;
+        width: 48%;
     }
 
     .boxText {
-        width: 40%;
-        font-size: 3vh;
+        width: 48%;
+        font-size: 1.5vh;
     }
 
     .blackLine {
-        height: 3px;
+        height: 2px;
         width: 100%;
         background: black;
     }

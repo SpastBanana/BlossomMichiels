@@ -151,7 +151,7 @@
     .grid{
       display: grid;
       grid-template-columns: 1fr 140px;
-      height: 120px;
+      height: 80px;
       align-self: center;
     }
 
@@ -184,8 +184,8 @@
         width: 35px;
         height: 30px;
         position: fixed;
-        top: 50px;
-        right: 50px;
+        top: 28px;
+        right: 28px;
         cursor: pointer;
         display: flex;
         flex-direction: column;
@@ -212,7 +212,7 @@
     }
 
     .logo-img {
-        max-height: 120px;
+        max-height: 80px;
     }
 
     .black-line{

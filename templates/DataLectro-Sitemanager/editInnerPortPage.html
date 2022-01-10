@@ -1,6 +1,51 @@
 {% load static %}
 <head>
-    <link rel="stylesheet" href="{% static 'DataLectro-Sitemanager/CSS/pageEdit.css' %}">
+    <link rel="stylesheet" href="{% static 'DataLectro-Sitemanager/CSS/editInnerPortPage.css' %}">
 </head>
 <main>
+    <div class="title">
+        <h2>{{ pageName }}</h2>
+    </div>
+    <div class="backBtn">
+        <a href="/sitemanager/portPages">Back...</a>
+    </div>
+
+    <div class="formats">
+        <a href="/sitemanager/portPages/{{ pageName }}/format1"><img src="{% static 'DataLectro-Sitemanager/IMG/format1.jpg' %}"></a>
+        <a href="/sitemanager/portPages/{{ pageName }}/format2"><img src="{% static 'DataLectro-Sitemanager/IMG/format2.jpg' %}"></a>
+        <a href="/sitemanager/portPages/{{ pageName }}/format3"><img src="{% static 'DataLectro-Sitemanager/IMG/format3.jpg' %}"></a>
+        <a href="/sitemanager/portPages/{{ pageName }}/format4"><img src="{% static 'DataLectro-Sitemanager/IMG/format4.jpg' %}"></a>
+        <a href="/sitemanager/portPages/{{ pageName }}/whitespace"><img src="{% static 'DataLectro-Sitemanager/IMG/whitespace.jpg' %}"></a>
+    </div>
+
+    <div class="pagesList">
+        {% for item in format %}
+        <div class="itemBox">
+            <div class="pageLink">
+                {% if item.portName == pageName %}
+                    {% if item.rowFormat == "form1" %}
+                        <p>{{ item.text|linebreaks }}</p>
+                        <img src="/media/{{ item.portimg1 }}">
+                        <img src="/media/{{ item.portimg2 }}">
+                    {% elif item.rowFormat == "form2" %}
+                        <img src="/media/{{ item.portimg1 }}">
+                        <p>{{ item.text|linebreaks }}</p>
+                        <img src="/media/{{ item.portimg2 }}">
+                    {% elif item.rowFormat == "form3" %}
+                        <img src="/media/{{ item.portimg1 }}">
+                        <img src="/media/{{ item.portimg2 }}">
+                        <p>{{ item.text|linebreaks }}</p>
+                    {% elif item.rowFormat == "form4" %}
+                        <img src="/media/{{ item.portimg1 }}">
+                        <img src="/media/{{ item.portimg2 }}">
+                        <img src="/media/{{ item.portimg3 }}">
+                    {% elif item.rowFormat == "whitespace" %}
+                        <p style="font-size: 1.5vw; font-weight: 900; color: #d6a345;">White space</p>
+                    {% endif %}
+                {% endif %}
+            </div>
+            <a class="delIcon" href="/sitemanager/portPages/delete/{{ item.id }}/{{ item.rowFormat }}"><i class="fa fa-trash"></i></a>
+        </div>
+        {% endfor %}
+    </div>
 </main>

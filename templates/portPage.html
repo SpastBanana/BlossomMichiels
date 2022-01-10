@@ -6,14 +6,42 @@
 </head>
 
 <main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>{{ pageName }}</h1>
-    <img src="/media/portfolio-{{ pageName }}/image00002.jpeg">
+    <div class="startBlock">
+        <a href="/portfolio" class="arrow"></a>
+        <div class="title">{{ pageName }}</div>
+    </div>
+    {% for item in portPage %}
+        {% if item.portName == pageName %}
+            {% if item.rowFormat == "form1" %}
+            <div class="box">
+                <div class="text"><p>{{ item.text|linebreaks }}</p></div>
+                <div class="img"><img src="/media/{{ item.portimg1 }}" alt="{{ item.portimg1 }}"></div>
+                <div class="img"><img src="/media/{{ item.portimg2 }}" alt="{{ item.portimg2 }}"></div>
+            </div>
+            {% elif item.rowFormat == "form2" %}
+            <div class="box">
+                <div class="img"><img src="/media/{{ item.portimg1 }}" alt="{{ item.portimg1 }}"></div>
+                <div class="text"><p>{{ item.text|linebreaks }}</p></div>
+                <div class="img"><img src="/media/{{ item.portimg2 }}" alt="{{ item.portimg2 }}"></div>
+            </div>
+            {% elif item.rowFormat == "form3" %}
+            <div class="box">
+                <div class="img"><img src="/media/{{ item.portimg1 }}" alt="{{ item.portimg1 }}"></div>
+                <div class="img"><img src="/media/{{ item.portimg2 }}" alt="{{ item.portimg2 }}"></div>
+                <div class="text"><p>{{ item.text|linebreaks }}</p></div>
+            </div>
+            {% elif item.rowFormat == "form4" %}
+            <div class="box">
+                <div class="img"><img src="/media/{{ item.portimg1 }}" alt="{{ item.portimg1 }}"></div>
+                <div class="img"><img src="/media/{{ item.portimg2 }}" alt="{{ item.portimg2 }}"></div>
+                <div class="img"><img src="/media/{{ item.portimg3 }}" alt="{{ item.portimg3 }}"></div>
+            </div>
+            {% elif item.rowFormat == "whitespace" %}
+            <div class="white">
+                <div class="whitespace"></div>
+            </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    <div class="bottom"></div>
 </main>
-<script>
-    aantalImg = []
-</script>

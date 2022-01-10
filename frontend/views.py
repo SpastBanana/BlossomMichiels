@@ -6,7 +6,7 @@ from django.core.mail import send_mail
 from BlossomSite import settings
 from .forms import LoginForm
 from .models import shootPayment, contactPage
-from Sitemanager.models import portfolioPages
+from Sitemanager.models import portfolioPages, innerPortPageItems
 
 def makeMailClient(mail):
     MSG = '''
@@ -73,7 +73,7 @@ def loginView(request):
 
 def logoutView(request):
     logout(request)
-    return redirect('Home')
+    return redirect('/')
 
 
 def profielView(request):
@@ -126,5 +126,6 @@ def portPageView(request, portPage):
     data = {
         'page': 'portPage.html',
         'pageName': portPage,
+        'portPage': innerPortPageItems.objects.all(),
     }
     return render(request, 'index.html', data)

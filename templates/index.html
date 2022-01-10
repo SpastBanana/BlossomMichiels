@@ -25,7 +25,7 @@
     <header>
       <div class="grid">
         <div class="logo">
-          <a href="/">
+          <a {% if user.is_authenticated %} href="/sitemanager" {% else %} href="/" {% endif %}>
               <img class="logo-img" src="{% static 'IMG/Format/Logo.png' %}" alt="Logo"/>
           </a>
         </div>
@@ -53,7 +53,7 @@
             <li class="link contact1">
                 <a  {% if request.get_full_path == "/contact" %} class="b1" {% else %} class="a1" {% endif %} href="/contact">Contact</a>
             </li>
-        </div>
+        </div>          
       </div>
       <div class="black-line"></div>
 

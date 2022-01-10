@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0579a768-f5f4-4e68-bd9e-50bd0501a232" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sitemanager/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sitemanager/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/DataLectro-Sitemanager/addPortPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/DataLectro-Sitemanager/addPortPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/2021sept-jan/Eind keuze project.docx" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Nigel &amp; Sebas/MittaCutzz" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
@@ -95,6 +90,13 @@
       <workItem from="1639462352707" duration="1004000" />
       <workItem from="1639582518163" duration="1273000" />
       <workItem from="1639678418666" duration="625000" />
+      <workItem from="1639944203515" duration="644000" />
+      <workItem from="1639983409828" duration="136000" />
+      <workItem from="1640007845829" duration="593000" />
+      <workItem from="1640020357824" duration="1156000" />
+      <workItem from="1640106336267" duration="2626000" />
+      <workItem from="1640253644933" duration="811000" />
+      <workItem from="1640347541212" duration="581000" />
     </task>
     <servers />
   </component>

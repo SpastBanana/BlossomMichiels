@@ -1,0 +1,89 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'DataLectro-Sitemanager/CSS/editInnerPortPageFormat.css' %}">
+</head>
+<main>
+    <div class="title">
+        <h1>{{ portPage }} - {{ formatName }}:</h1>
+    </div>
+    <div class="backBtn">
+        <a href="/sitemanager/portPages/{{ portPage }}">Back...</a>
+    </div>
+    {% if formatName == "format1" %}
+    <div class="addPageForm">
+        <form method="post" enctype="multipart/form-data" autocomplete="off">
+            {% csrf_token %}
+            <div class="upload">
+                <label for="text">Text:</label>
+                <textarea id="text" name="text"></textarea>
+            </div>
+            <div class="upload">
+                <label for="img">IMG-1:</label>
+                <input type="file" id="img" name="img1" accept="image/*">
+            </div>
+            <div class="upload">
+                <label for="img">IMG-2:</label>
+                <input type="file" id="img" name="img2" accept="image/*">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    {% elif formatName == "format2" %}
+    <div class="addPageForm">
+        <form method="post" enctype="multipart/form-data" autocomplete="off">
+            {% csrf_token %}
+            <div class="upload">
+                <label for="img">IMG-1:</label>
+                <input type="file" id="img" name="img1" accept="image/*">
+            </div>
+            <div class="upload">
+                <label for="text">Text:</label>
+                <textarea id="text" name="text"></textarea>
+            </div>
+            <div class="upload">
+                <label for="img">IMG-2:</label>
+                <input type="file" id="img" name="img2" accept="image/*">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    {% elif formatName == "format3" %}
+    <div class="addPageForm">
+        <form method="post" enctype="multipart/form-data" autocomplete="off">
+            {% csrf_token %}
+            <div class="upload">
+                <label for="img">IMG-1:</label>
+                <input type="file" id="img" name="img1" accept="image/*">
+            </div>
+            <div class="upload">
+                <label for="img">IMG-2:</label>
+                <input type="file" id="img" name="img2" accept="image/*">
+            </div>
+            <div class="upload">
+                <label for="text">Text:</label>
+                <textarea id="text" name="text"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    {% elif formatName == "format4" %}
+    <div class="addPageForm">
+        <form method="post" enctype="multipart/form-data" autocomplete="off">
+            {% csrf_token %}
+            <div class="upload">
+                <label for="img">IMG-1:</label>
+                <input type="file" id="img" name="img1" accept="image/*">
+            </div>
+            <div class="upload">
+                <label for="img">IMG-2:</label>
+                <input type="file" id="img" name="img2" accept="image/*">
+            </div>
+            <div class="upload">
+                <label for="img">IMG-3:</label>
+                <input type="file" id="img" name="img3" accept="image/*">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    {% endif %}
+</main>
